@@ -9,5 +9,5 @@
 
 from sys import argv
 file, worked_time, bet, prize = argv
-calculation = (int(worked_time) * int(bet)) + int(prize)
+calculation = int(worked_time) * int(bet) + int(prize)
 print(f"Ваша заработная плата {calculation}")
